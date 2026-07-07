@@ -7,7 +7,9 @@ const JWT_KEY = process.env.JWT_KEY;
 const TOKEN_EXPIRES = "24h";
 
 const createdToken = (userId) => {
-  return jwt.sign({ id: userId }, JWT_KEY, { expiresIn: TOKEN_EXPIRES });
+  return jwt.sign({ id: userId }, process.env.JWT_KEY, {
+    expiresIn: TOKEN_EXPIRES,
+  });
 };
 
 export async function register(req, res) {
