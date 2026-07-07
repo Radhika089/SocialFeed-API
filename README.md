@@ -149,6 +149,6 @@ This project helped me practice:
 
 ## 👩‍💻 Author
 
-**Radhika Gupta**
+**Radhika Bansal**
 
 Aspiring Full Stack MERN Developer building real-world backend projects to strengthen problem-solving skills and prepare for software development roles.
